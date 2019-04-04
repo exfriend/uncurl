@@ -59,7 +59,8 @@ class Uncurl
      */
     public function first()
     {
-        return array_shift( $this->all() );
+        $l = $this->all();
+        return array_shift( $l );
     }
 
     /**
@@ -68,7 +69,8 @@ class Uncurl
      */
     public function last()
     {
-        return array_pop( $this->all() );
+        $l = $this->all();
+        return array_pop( $l );
     }
 
     /**
