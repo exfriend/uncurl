@@ -16,13 +16,16 @@ composer require exfriend/unfurl
 Get the whole chain:
 ``` php
 unfurl('http://google.com')->all();
-// will return [ 'https://google.com', 'https://www.google.com' ];
+// returns [ 'https://google.com', 'https://www.google.com' ];
 ```
 
 Get the final destination:
 ``` php
 unfurl('http://google.com')->last();
-// will return 'https://www.google.com';
+// returns 'https://www.google.com';
+
+(string) unfurl('http://google.com')
+// same as above
 ```
 
 ### Changelog
@@ -35,7 +38,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ### Security
 
-If you discover any security related issues, please email freek@spatie.be instead of using the issue tracker.
+If you discover any security related issues, please email vlad@serpentine.io instead of using the issue tracker.
 
 ## Credits
 

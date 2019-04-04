@@ -64,7 +64,7 @@ class Uncurl
 
     /**
      * Get the final destination
-     * @return mixed
+     * @return string
      */
     public function last()
     {
@@ -98,5 +98,13 @@ class Uncurl
         }
 
         $this->checked = true;
+    }
+
+    /**
+     * @return string
+     */
+    public function __toString()
+    {
+        return $this->last();
     }
 }
