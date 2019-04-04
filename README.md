@@ -1,6 +1,6 @@
 # Unfurl links in PHP
 
-This package unwraps urls like t.co or bit.ly to actual destination urls by doing an HTTP requests and remembering the redirect chain.
+This package unwraps urls like t.co or bit.ly to actual destination urls by doing an HTTP request and remembering the redirect chain.
 
 
 ## Installation
