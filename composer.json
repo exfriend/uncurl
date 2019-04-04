@@ -1,0 +1,53 @@
+{
+  "name": "exfriend/uncurl",
+  "description": "Unfurl links in PHP",
+  "version": "1.0",
+  "keywords": [
+    "php",
+    "laravel",
+    "unfurl",
+    "crawler",
+    "curl"
+  ],
+  "homepage": "https://github.com/exfriend/uncurl",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vladislav Otchenashev",
+      "email": "vlad@serpentine.io",
+      "homepage": "https://serpentine.io",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.1"
+  },
+  "require-dev": {
+    "larapack/dd": "^1.0",
+    "phpunit/phpunit": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Exfriend\\Uncurl\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Exfriend\\Uncurl\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit",
+    "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Exfriend\\Uncurl\\UncurlServiceProvider"
+      ]
+    }
+  }
+}
