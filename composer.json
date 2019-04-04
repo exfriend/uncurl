@@ -49,7 +49,6 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Exfriend\\Uncurl\\UncurlServiceProvider"
       ]
     }
   }
