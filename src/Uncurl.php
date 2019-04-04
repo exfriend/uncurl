@@ -46,7 +46,7 @@ class Uncurl
     {
         if ( !$this->checked )
         {
-            return $this->load();
+            $this->load();
         }
 
         return $this->locations;
