@@ -8,7 +8,7 @@ This package unwraps urls like t.co or bit.ly to actual destination urls by doin
 You can install the package via composer:
 
 ```bash
-composer require exfriend/unfurl
+composer require exfriend/uncurl
 ```
 
 ## Usage
