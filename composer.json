@@ -1,7 +1,6 @@
 {
   "name": "exfriend/uncurl",
   "description": "Unfurl links in PHP",
-  "version": "1.0.3",
   "keywords": [
     "php",
     "laravel",
